@@ -5,7 +5,7 @@ to define variables, methods, and imports of other Vue components. -->
 import { ref } from "vue";
 
 // Define variables and constants
-let name = ref("Poll");
+let name = ref("Polly");
 
 // Array of coding-related poems
 let poems = [
@@ -56,6 +56,7 @@ with data, objects, functions, etc. -->
 
 <!-- Style is for CSS styling -->
 <style>
+  
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
