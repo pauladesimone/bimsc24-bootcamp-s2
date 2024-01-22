@@ -5,7 +5,7 @@ to define variables, methods, and imports of other Vue components. -->
 import { ref } from "vue";
 
 // Define variables and constants
-let name = ref("Polly");
+let name = ref("Paula");
 
 // Array of coding-related poems
 let poems = [
@@ -38,13 +38,13 @@ with data, objects, functions, etc. -->
   <div id="top-bar">
     <div id="title-container">
       <img class="logo-image" alt="Iaac logo" src="./assets/iaac-white.png" />
-      <h2>Digital Tools for Cloud-based Data Management - {{ name }} </h2>
+      <h2>The Poem machine by {{ name }} </h2>
     </div>
   </div>
 
   <div id="content">
     <!-- Button for the poem -->
-    <button @click="displayPoem">Recite me a Coding Poem</button>
+    <button @click="displayPoem">Recite me a <strong>Poem</strong></button>
 
     <!-- Display the poem -->
     <div v-if="showPoem" class="poem-container">
@@ -61,14 +61,14 @@ with data, objects, functions, etc. -->
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #922573;
 }
 
 #top-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 41, 219, 0.7);
 }
 
 #title-container {

@@ -1,7 +1,7 @@
 button {
-    background-color: #6fb8ff;
-    border: #6fb8ff;
-    color: black;
+    background-color: #cc31c2;
+    border: #cc31c2;
+    color: rgb(255, 255, 255);
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
@@ -14,7 +14,7 @@ button {
   }
   
   button:hover {
-    background-color: #1E90FF;
+    background-color: #eba3dc;
     box-shadow: 3px 3px black;
   }
 
